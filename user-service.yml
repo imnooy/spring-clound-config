@@ -6,4 +6,4 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/testdb?serverTimezone=UTC&characterEncoding=UTF-8
     username: root
-    password: 1234
+    password: '{cipher}d859052e466ed76dbcd2ebf34661dfea35f5c2af0c4d9827c227fb568584e9bd'
