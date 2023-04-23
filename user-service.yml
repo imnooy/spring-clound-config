@@ -7,3 +7,5 @@ spring:
     url: jdbc:mysql://localhost:3306/testdb?serverTimezone=UTC&characterEncoding=UTF-8
     username: root
     password: '{cipher}AQAbKmPh+eJFL9Pf5QJZc3kTFk2fIX2MBMvDfjZnYeKBgZGWEWNYIWJCcrSM7yMDt2rtkV65d9Z2GUAmOyAddDvhhjPe4P9YVtAj/GGRJaCvKLoL0NhD9G23/PGDBALMF70ZbIV5G2anxa5oPSYAQNgGiaVhx0pqYqZm/QyJa2HvylmsdyOXVror4d72N9j87zpuOFSmOdei8WixFyl9XKVjsP04MG8lXV3gp/YNiZgWe6dNxfwv3vZusNbL8KjMSCuP1/MDqgxZOtOqJP2PI2F/5qseeDk0Av7S0y1TQ7vz2B9O136baqRKJYgem+L66ZB3JDv0OSR+9CUA/6Vn7hIBBkHILDIaAsy3bsS+tNmfg5WQw+HK/66tbB2xc5yPtO4='
+order_service:
+  url: http://127.0.0.1:8000/order-service/%s/orders
